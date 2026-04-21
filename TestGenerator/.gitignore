@@ -1,0 +1,40 @@
+﻿# .NET artefacts
+bin/
+obj/
+*.user
+*.suo
+
+# Generated test outputs
+GeneratedTests/
+Tests/
+Output/
+TempTests/
+TempGeneratedTests/
+DemoOutput_*/
+MyNewTests/
+FreshTests/
+TestRunner/
+TempProject*/
+TempTestProject_*/
+
+# IDE folders
+.idea/
+.vs/
+.vscode/
+*.DotSettings.user
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# Logs
+*.log
+*.tmp
+
+# Rider specific
+_ReSharper.Caches/
+*.csproj.DotSettings
