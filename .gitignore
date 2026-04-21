@@ -1,0 +1,50 @@
+﻿## .NET artefacts
+bin/
+obj/
+*.user
+*.suo
+
+## Generated test outputs (не загружаем сгенерированные тесты)
+GeneratedTests/
+Tests/
+Output/
+TempTests/
+TempGeneratedTests/
+DemoOutput_*/
+MyNewTests/
+FreshTests/
+TestRunner/
+TempProject*/
+TempTestProject_*/
+DemoOutput/
+TempOutput/
+
+## IDE folders
+.idea/
+.vs/
+.vscode/
+*.DotSettings.user
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+## Logs
+*.log
+*.tmp
+*.cache
+
+## Rider / Visual Studio specific
+_ReSharper.Caches/
+*.csproj.DotSettings
+
+## OS generated
+.DS_Store
+Thumbs.db
+
+## PowerShell scripts (опционально, если не хотите загружать скрипты)
+# *.ps1
